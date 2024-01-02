@@ -1,0 +1,145 @@
+/*reset*/
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+                                            /* NAVEGAÇÃO */
+
+
+nav {
+    align-items: center;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 0, 0);
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.logo {
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 7%;
+    padding: 10px;
+}
+
+/* "ONE PIECE" botao */
+
+nav p {
+    font-size: 45px;
+    margin-right: 20%;
+    text-shadow: 3px 2px rgb(122, 9, 9);
+}
+
+/* NAV TITLES */
+
+nav a {
+    font-size: 700;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: auto;
+    margin-right: 30px;
+}
+a:visited {
+    color: red;
+}
+
+
+                                            /* FUNDO 1 página */
+
+
+.container img{
+    background-size: cover;
+}
+
+
+/*img background pag principal*/
+.container {
+    background-image: url(/img/ONE\ PÍECE.png);
+    background-size: auto;
+    background-repeat: no-repeat;  
+    position: relative;
+     
+}
+/*tamanho img*/
+.container img {
+    max-width: 100%;
+    
+}
+    
+/*texto centro one piece */
+.texto {
+    position: absolute;
+    text-align: center;
+    color:white;
+    padding: 10px;
+    top: 40%;
+    left: 40%;
+    transition: translate(-50%, -50%);
+    font-size: 25px;
+    font-family: sans-serif;
+}
+/*legenda desc*/
+.legenda {
+    position: absolute;
+    text-align: left;
+    color: white;
+    padding: 10px;
+    bottom:0;
+    left: 0;
+    top: 70%;
+    font-size: 14px;
+    font-family: sans-serif;
+    word-break: break-all;
+}
+
+
+                                            /* PAG 2 */
+
+.fundo-pag2{
+    height: 800px;
+    width: 100%;
+    background-color: #F4D199 ;
+    position: relative;
+}
+
+
+#cadrado {
+background-color: rgb(255, 255, 255);
+opacity: 80%;
+width: 40%;
+height: 500px;
+border-radius: 30%;
+position: absolute; 
+
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    top: 125%;
+    left: 60%;
+
+}
+
+
+.obj {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.obj img {
+    border-radius: 2%;
+    width: 55%;
+    
+    position: absolute;
+    top: 130%;
+    left: 3%;
+}
+

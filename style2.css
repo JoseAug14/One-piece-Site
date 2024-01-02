@@ -1,0 +1,398 @@
+/*reset*/
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+                                            /* NAVEGAÇÃO */
+
+
+nav {
+    align-items: center;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 0, 0);
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.logo {
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 7%;
+    padding: 10px;
+}
+
+/* "ONE PIECE" botao */
+nav p {
+    font-size: 45px;
+    margin-right: 20%;
+    text-shadow: 3px 2px rgb(122, 9, 9);
+}
+
+/* NAV TITLES */
+nav a {
+    font-size: 700;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: auto;
+    margin-right: 30px;
+}
+a:visited {
+    color: red;
+}
+
+
+                                            /* FUNDO 1 página */
+
+
+.pag1 img{
+    background-size: cover;
+}
+
+
+/*img background pag principal*/
+.pag1 {
+    background-image: url(/img/fundo-mar.png);
+    background-size: contain;
+    background-repeat: no-repeat;  
+    position: relative;
+}
+/*tamanho img*/
+.pag1 img {
+    max-width: 100%;
+}
+    
+/*texto centro one piece */
+.texto {
+    position: absolute;
+    text-align: center;
+    color:white;
+    padding: 10px;
+    top: 40%;
+    left: 40%;
+    transition: translate(-50%, -50%);
+    font-size: 25px;
+    font-family: sans-serif;
+}
+/*legenda desc*/
+.legenda {
+    position: absolute;
+    text-align: left;
+    color: white;
+    padding: 10px;
+    bottom:0;
+    left: 0;
+    top: 70%;
+    font-size: 14px;
+    font-family: sans-serif;
+    word-break: break-all;
+}
+
+
+                                            /* PAG 2 */
+
+
+.obj {
+    display: flex;
+    flex-direction: reverse;
+    justify-content: space-around;
+    height: 800px;
+    width: 100%;
+    background-color: #f4d199;
+    position: relative;
+}
+
+.obj img {
+    border-radius: 4%;
+    width: 55%;
+    height: 60%;
+    margin-top: 180px;
+    margin-bottom: 180px;
+    border: 6px solid burlywood;
+}
+
+/* Quadrado objetivos */
+#cadrado {
+background-color: rgb(255, 255, 255);
+opacity: 80%;
+width: 40%;
+height: 570px;
+border-radius: 20%;
+margin-top: 130px;
+
+text-align: center;
+}
+
+#cadrado h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+#cadrado font {
+    font-family: 'Comic Sans', 'Arial Narrow ', sans-serif;
+    font-size: 22px;
+
+}
+
+#cadrado ul {
+    margin-left: 115px;
+    padding-right: 50px;
+    margin-top: 20px;
+    width: 390px;
+}
+
+
+                                            /* PAG 3*/
+
+
+#pag3 {
+    background-image: url(img/pag3bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    background: linear-gradient(rgba(244,209,153,3),rgba(244,209,153,0.3)),url(img/pag3bg.png) no-repeat;
+}
+
+#suniblok {
+    width: 40%;
+    height: 35%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex-wrap: wrap;
+    font-size: 30px;
+}
+
+#pobre {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#pobre p {
+    z-index: 99;
+}
+
+#sunny {
+    width: 600px;
+    max-height: 500px;
+    border: 6px solid rgb(71, 41, 7);
+    border-radius: 14%;
+}
+
+#frankiface {
+    width: 160px;
+    margin-right: 20px;
+    margin-top: 35px;
+    z-index: 99;
+    border: 2px solid aqua;
+}
+
+                                            /* PAG 4 */
+
+
+#pag4{
+    background: linear-gradient(#4a3838, #4a3838) ;
+}
+#titulopag4 {
+    padding-top: 60px;
+    margin-left: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#subtitulopag4{
+    font-family: sans-serif;
+    margin-top: 35px;
+    font-size: 20px;
+    margin-left: -970px;
+    text-align: center;
+}
+#aquario {
+    width: 500px;
+    margin-left: 800px;
+    border-radius: 4%;
+    border: 5px solid black;
+}
+
+#tituloimgpag4 {
+    margin-left: 930px;
+    
+}
+
+#cozinhaimg {
+    width: 500px;
+    margin-top: 50px;
+    border-radius: 4%;
+    margin-left: 10px;
+}
+
+#cozinha{
+    margin-left: 12%;
+}
+
+
+                                            /* pag 5*/
+
+
+#pag5 {
+    background: linear-gradient(#4a3838, #4a3838,#b69365);
+}
+#tituloenfermaria {
+    margin-left: 10%;
+    
+}
+
+#titulolivraria{
+    margin-left: 950px;
+}
+
+                                            /* PAG 6*/
+
+
+#pag6 {
+    background: linear-gradient(#b69365, #700cbf);
+    height: 600px;
+}
+
+#titulopag6{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 70px;
+    padding-top: 35px;
+}
+
+.al {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#canalsize{
+   width: 190px
+}
+
+#jetskipea{
+   height: 300px;
+}
+#txt1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+#txt2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+                                            /* PAG 7*/
+
+
+#pag7{
+    background: linear-gradient(#700cbf, #700cbf, #1012e8, #1012e8, #1012e8, #35b7ef) ;
+    height: 700px;
+}
+
+.ul{
+    list-style:none ;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#canal3{
+    width: 510px;
+}
+#canal4{
+    width: 350px;
+}
+#canal5{
+    width: 300px;
+    height: 200px;
+}
+
+#textocanais{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+                                                /* PAG 8 */
+
+                        
+                                                
+#jornada {
+    background: linear-gradient(#35b7ef, #ffffff);
+    display: flex;
+    justify-content: space-around;
+    height: 800px;
+    width: 100%;
+    justify-content: baseline;
+}
+
+#jornada img {
+    width: 35%;
+    height: 46%;
+}
+
+.textosjorna {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+    width: 85%;
+}
+
+.textosjorna a:visited {
+    color:#35b7ef
+}
+
+#blocojorna {
+    border-radius: 30%;
+    flex-direction: column;
+    height: 350px;
+    background-color: khaki;
+    width: 40%;
+}
+
+/* Quadrados dos perso */
+
+.persos {
+    width: 80%;
+    height: 500px;
+    border-radius: 9%;
+    background-color: rgb(192, 5, 5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.persos img {
+    height: 80%;
+    margin: 20px;
+}
+
+#bountyluffy {
+    border: 3px solid #964B00;
+}
+
+.quadradosperso {
+    font-size: 20px;
+    width: 40%;
+    display: row;
+    flex-direction: column;
+}
+
+.quadradosperso p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
